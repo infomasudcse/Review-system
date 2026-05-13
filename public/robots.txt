@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /health-check
+Sitemap: https://getreviewboost.com/sitemap.xml

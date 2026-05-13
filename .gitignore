@@ -1,0 +1,47 @@
+# Laravel & PHP
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testingg/*
+/storage/framework/views/*
+/bootstrap/cache/*.php
+
+# Environment & Config
+.env
+.env.backup
+.env.local
+.env.production
+.env.development
+.info
+.deploy.sh
+TODO.md
+
+# IDE / Editor
+.idea
+.vscode
+*.swp
+*.swo
+
+
+# System
+.DS_Store
+Thumbs.db
+
+# NPM / Yarn / Vite
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+.pnpm-debug.log
+/vite.config.js.timestamp*
+
+# Composer
+composer.lock
+
+# Cache
+*.cache
+
+public/sitemap.xml
