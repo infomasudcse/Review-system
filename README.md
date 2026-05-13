@@ -6,16 +6,23 @@ ReviewBoost is a professional SaaS solution built to help businesses automate an
 # Tech Stack
 
 Backend: PHP 8.1 & Laravel 10
+
 Frontend: Blade with Bootstrap
+
 Database: MySQL
+
 Libraray: Stripe, Brevo, Breeze, Tinker, Cashier, laravel-honeypot
+
 Tooling: Composer, NPM, Git (Feature-branch workflow)
 
 # Key Features
 
 Automated Review Invitations: Logic-driven scheduling to request feedback from customers at the optimal time.
+
 Centralized Dashboard: A unified view for managing reviews across multiple platforms using custom API integrations.
+
 Dynamic Scheduling: Sophisticated backend logic for handling business hours and custom scheduling constraints.
+
 RESTful API Architecture: Built with a clean, decoupled structure for scalability and third-party synchronization.
 
 
