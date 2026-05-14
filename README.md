@@ -29,18 +29,24 @@ RESTful API Architecture: Built with a clean, decoupled structure for scalabilit
 # Installation & Setup
 
 - Clone the repository:
-	git clone https://github.com/infomasudcse/ReviewBoost.git
+
+	git clone https://github.com/infomasudcse/Review-system.git
 
 - Install Dependencies:
+
 	composer install
+
  	npm install && npm run build
 
 - Environment Configuration:
+
 	Copy .env.example to .env.
+
 	Configure your DB_DATABASE and API credentials.
 
 - Run
 	php artisan key:generate
 
 - Database Setup:
+
 	php artisan migrate --seed
