@@ -48,7 +48,7 @@ class QrcodeController extends Controller
 			'business_name' => 'required|string|max:100|min:3'
         ],
 		[
-        	'google_review_link.regex' => 'Please provide a valid Google Review URL.'
+        	'review_link.regex' => 'Please provide a valid Google Review URL.'
     	]);
 
 		$qrCode = QrCode::size(300)->generate($request->review_link);

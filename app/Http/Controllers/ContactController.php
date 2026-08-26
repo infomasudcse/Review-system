@@ -33,7 +33,7 @@ class ContactController extends Controller
 	$response = $brevo->sendContactEmail($from_name, $data['email'], $data['message']);
 	if ($response && isset($response['messageId'])) {
 
-		return redirect()->back()->with('success', 'Message sent successfully. We wil back to you soon.');
+		return redirect()->back()->with('success', 'Message sent successfully. We will back to you soon.');
 	}
 
 		return redirect()->back()->with('error', 'Could not send message. Please try again later.');

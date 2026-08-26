@@ -45,10 +45,6 @@
 
        @include('template-parts.header')
 
-	   <div class="bg-primary text-white text-center py-2 fw-bold">
-			🚀 Early Bird Special: Use code <span class="text-warning">EARLYBIRD50</span> for 50% off LIFETIME! (Limited to first 20 users)
-		</div>
-
       <main>
 
         @yield('content')
